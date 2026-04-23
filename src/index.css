@@ -1,0 +1,35 @@
+:root {
+  --bs-primary: #11253e;
+  --bs-primary-rgb: 17, 37, 62;
+  --bs-btn-bg: #11253e;
+  --bs-btn-border-color: #11253e;
+  --bs-btn-hover-bg: #0d1e33;
+  --bs-btn-hover-border-color: #0d1e33;
+  --bs-link-color: #11253e;
+}
+
+.btn-primary {
+  background-color: #11253e;
+  border-color: #11253e;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #0d1e33;
+  border-color: #0d1e33;
+}
+
+.btn-success {
+  background-color: #1a6b3c;
+  border-color: #1a6b3c;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active {
+  background-color: #155730;
+  border-color: #155730;
+}
+
+.badge.bg-primary {
+  background-color: #11253e !important;
+}
